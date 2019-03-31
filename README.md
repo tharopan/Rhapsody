@@ -1,2 +1,2 @@
 # Rhapsody
-Data layer which enables to plug and write app on top of EntityFramework
+Data layer which written on top of EntityFramework to make easy to developer to plug.
