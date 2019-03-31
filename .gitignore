@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.dtbcache
+*.suo
+netstandard2.0
+bin
+obj
