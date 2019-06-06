@@ -1,9 +1,9 @@
 ﻿namespace Rhapsody.Entities
 {
-    public interface IFullAuditEntity<TPrimaryKey>
+    public interface IFullAuditWithSoftDelete<TPrimaryKey>
         : IEntity<TPrimaryKey>,
         ICreatedEntity,
         IUpdatedEntity,
-        IDeletedEntity
+        ISoftDeleteEntity
     { }
 }

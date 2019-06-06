@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Rhapsody.Entities
+﻿namespace Rhapsody.Entities
 {
-    public class Entity<TPrimaryKey> : IEntity<TPrimaryKey>
+    public class Entity<TPrimaryKey>
+        : IEntity<TPrimaryKey>
     {
         public TPrimaryKey Id { get; set; }
     }
+
+    public class Entity
+        : Entity<long>, IEntity
+    { }
 }
